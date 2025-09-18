@@ -1,0 +1,45 @@
+body{
+    background-color: grey;
+    font-size: 20px;
+    text-align: center;
+    
+    
+    
+}
+
+#content{
+    
+    
+    margin:0 auto;
+    border: solid, 3px, black;
+    padding: 40px;
+}
+ p {
+    color:blue;
+}
+img{
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+
+    
+}
+h1{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.list{
+    list-style-type: none;
+}
+
+#topics{
+    margin: 0 auto;
+}
+
+hr{
+    height: 3px;
+    background-color: blue;
+    width: 80%;
+    
+}
