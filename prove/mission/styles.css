@@ -1,0 +1,54 @@
+body {
+    border: 1px solid gray;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+
+#contents {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    
+}
+
+h2 {
+    display: inline-block;
+    color: darkblue;
+    text-decoration: underline;
+    font-size: medium;
+    margin-bottom: 30px;
+}
+
+.paragraph1, 
+.paragraph2 {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.paragraph2 {
+    font-style: italic;
+}
+
+ol {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    margin-top: 15px;
+    
+}
+
+.logo {
+    margin: 40px auto;
+    display: block;
+    width: 150px;
+}
