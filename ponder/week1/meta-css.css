@@ -1,5 +1,5 @@
 body{
-    background-color: grey;
+    background-color: lightblue;
     font-size: 20px;
     text-align: center;
     
@@ -42,4 +42,7 @@ hr{
     background-color: blue;
     width: 80%;
     
+}
+.blue{
+    color: black;
 }
