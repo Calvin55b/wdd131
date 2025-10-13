@@ -11,7 +11,7 @@ btn.addEventListener('click', showNav);
     
     function showNav(){
 
-        menu.forEach(link => link.classList.toggle("show"));
+        menu.forEach(a => a.classList.toggle("show"));
         console.log("works");
 
         
