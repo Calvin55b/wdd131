@@ -1,0 +1,100 @@
+/* This is the moble version*/
+body
+{
+    text-align: center;
+
+}
+nav{
+   border-top:3px solid orange ;
+   border-bottom:3px solid orange ;
+
+    padding: 4%;
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: flex-end;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: maroon;
+    padding: 2%;
+}
+
+.ratings
+{
+   display: grid;
+    
+    grid-template-columns: 3 1fr;
+    
+    justify-self: right;
+
+    margin-right: 5%;
+}
+
+
+article h2
+{
+    color: maroon;
+}
+
+.book_display p 
+{
+    
+    margin: 0 auto;
+    padding: 3%;
+}
+
+
+
+
+footer
+{
+    border-top:3px solid orange;
+}
+
+
+
+
+
+
+
+/* This is the largerversion*/
+
+@media screen and (min-width: 800px ) 
+{
+    main
+    {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+   .ratings 
+   {
+        grid-column: 1/2;
+
+        max-height: 100px;
+
+        padding-right: 10%;
+
+   }
+
+   .book_display
+   {
+
+        grid-column: 2/2 ;
+
+        border-left: 3px solid orange;
+   }
+
+   article h2
+   {
+    text-align: left;
+    padding: 5px;
+   }
+    
+    
+}
