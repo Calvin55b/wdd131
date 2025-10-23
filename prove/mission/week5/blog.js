@@ -43,7 +43,7 @@ const articles = [
 let bookList = document.querySelector('#book_list');
 articles.forEach(article => {
 
-   // Code for going through each movie and creating content for that movie
+   // Code for going through each movie and creating content for that book
 
 
      
@@ -62,7 +62,7 @@ articles.forEach(article => {
 
             <h2>${article.title}</h2>
     
-            <img src=${article.imgSrc} alt=${imgAlt}>
+            <img src="${article.imgSrc}" alt="${imgAlt}">
     
             <p>${article.description}</p>
 
