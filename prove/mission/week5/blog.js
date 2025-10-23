@@ -62,7 +62,7 @@ articles.forEach(article => {
 
             <h2>${article.title}</h2>
     
-            <img src="${article.imgSrc}" alt="${imgAlt}">
+            <img src="${article.imgSrc}" alt="${article.imgAlt}">
     
             <p>${article.description}</p>
 
