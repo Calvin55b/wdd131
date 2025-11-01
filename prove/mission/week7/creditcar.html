@@ -13,17 +13,69 @@
 
 <main>
 
+    
+    
+    
+    <section id="frontCard">
+
+        <div id="fcardContents">
 
 
-    <section>
+            <p class="cardImg"> 💳</p>
+            
+            <p>TOTAL: $199</p>
+    
+            
+            <div id="cardNum">
+    
+                <label for="cardNum">CARD NUMBER</label>
+                <input type="text" id="num" name="" placeholder="1234 5678 9101 1020" aria-label="cardNumber">
+    
+            </div>
+    
+        
+    
+            <div id="cardHolder">
+    
+                <label for="cardHolder">CARD HOLDER</label>
+                <input type="text" id="holder" name="" placeholder="John Doe" aria-label="cardHolder">
+    
+    
+            </div>
+    
+    
+    
+            <div id="cardExpiration">
+                <label for="expirationDate">EXPIRATION</label>
+                <input type='text' id='month' name="expMonth" placeholder="MM" aria-labelledby="expirationDate">
+                <input type='text' id='year' name="expYear" placeholder="YY" aria-labelledby="expirationDate">
+            </div>
+        </div>
+        
 
-        <div id="cardExpiration">
-            <label for="expirationDate">EXPIRATION</label>
-            <input type='text' id='month' name="expMonth" placeholder="MM" aria-labelledby="expirationDate">
-            <input type='text' id='year' name="expYear" placeholder="YY" aria-labelledby="expirationDate">
+    </section>
+
+    <section id="backCard">
+
+        <div id="bcardContents">
+            
+        
+        
+            <div id="blackStrip"></div>
+    
+            <div id="cv">
+    
+                <label for="cv">CVC/CVV</label>
+                <input type="text" id="CVC" placeholder="xxx" >
+    
+            </div>
+        
+
         </div>
 
     </section>
+
+    <button id="submitButton">Submit</button>
 
     
 
