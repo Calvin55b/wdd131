@@ -50,6 +50,8 @@ renderSections(cardStats.sections);
 
 
  health.addEventListener("click", function() {
+
+    console.log("you got attacked");
       cardStats.sections[0].value -= 1; 
       if (cardStats.sections[0].value < 0) {
 
@@ -60,6 +62,8 @@ renderSections(cardStats.sections);
     });
     
  level.addEventListener("click", function() {
+
+     console.log("you got leveled up");
       cardStats.sections[0].value += 1; 
       renderSections(cardStats.sections);
     });
