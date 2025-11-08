@@ -26,6 +26,11 @@
     background-color: #5d747b;
   }
 
+  tr th {
+
+    display: block;
+  }
+
   .cardinfo{
 
     color: white;
