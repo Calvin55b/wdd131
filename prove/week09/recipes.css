@@ -1,0 +1,149 @@
+
+    
+.Recipeimg
+{
+display: flex;
+justify-content: center;
+
+
+
+}
+.Recipeimg h1
+{
+    max-width: 250px;
+  
+
+}
+
+
+
+
+
+.Recipeimg img
+
+{
+    
+    max-width: 70px;
+    width: 100%;
+    padding: 10px;
+
+
+}
+
+
+
+.search
+{
+   
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+   
+
+
+}
+
+.search img
+{
+    border-radius: 2px;
+    border: 2px solid rgb(185, 185, 185);
+    padding-left: 5px;
+    max-width: 4%;
+    
+
+}
+
+.recipe
+{
+    border: 2px solid black;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    
+
+
+}
+
+.applepic img
+{
+    width: 300px;
+
+}
+
+.recipe button
+{
+
+    max-width: 60px;
+}
+
+.h2andrating
+{
+
+
+}
+.h2andrating h2
+{
+    color: rgba(18, 128, 230, 0.916);
+
+}
+
+
+.social
+{
+    height: 30px;
+   padding: 10px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+
+.social img{
+
+width: 45px;
+height: 35px;
+
+
+
+}
+
+
+@media screen and (min-width:375px) {
+
+
+.recipe
+{
+    flex-direction: row;
+      
+    margin: 0 auto;
+
+}
+.h2andrating{
+    
+    flex-direction: column;
+    justify-content: end ;
+}
+.recipe button{
+
+    height: 50px;
+    width: 100px;
+}
+.social{
+
+    justify-content: space-between;
+}
+
+
+
+
+
+
+    
+}
+
+
+
