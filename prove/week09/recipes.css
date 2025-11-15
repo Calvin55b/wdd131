@@ -123,14 +123,25 @@ height: 35px;
 
 }
 .h2andrating{
-    
+    padding: 5px;
     flex-direction: column;
-    justify-content: end ;
+
 }
 .recipe button{
 
-    height: 50px;
+
     width: 100px;
+    
+    
+}
+
+.split{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+
 }
 .social{
 
