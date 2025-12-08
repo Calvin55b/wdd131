@@ -1,0 +1,146 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #11151C;
+  --secondary-color: #FFF6F6;
+  --accent1-color: #212D40;
+  --accent2-color: #D66853;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Josefin Sans", "Times New Romans";
+  --paragraph-font: "Rubik", "Times New Romans";
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: var(
+    --primary-color
+  ); /* headlines on a white background */
+  --headline-color-on-color: white; /* headlines on a colored background */
+  --paragraph-color-on-white: var(
+    --primary-color
+  ); /* paragraph text on a white background */
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */
+  --paragraph-background-color: var(--primary-color);
+  --nav-link-color: var(--primary-color);
+  --nav-background-color: var(--secondary-color);
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: var(--primary-color);
+}
+
+/* This is my section of CSS for all of the Navigation*/
+
+
+
+header
+{
+
+ font-family: var(--heading-font);
+
+}
+
+header h1
+{
+   
+    text-align: center;
+}
+nav
+{
+
+    border: 2px solid gray;
+    max-width: fit-content;
+}
+/* I need to make a hamburguer menu and design with mobile first.*/
+nav a {
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-top: 1px solid gray;
+    max-width: 100px;
+    /*display: none;*/
+}
+.hidden-nav{
+    display: none;
+    max-width: 50px;
+    background-color: var(--nav-background-color);
+    padding: 4% ;
+}
+nav a:hover {
+    text-decoration: none;
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
+
+}
+.menu-button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 3%;
+}
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 5px 0;
+    transition: .4s;
+}
+
+
+.change .bar1 {
+  transform: translate(0, 7.5px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+
+/*This is my section for the body*/ 
+
+.home-content
+{
+    text-align: center;
+}
+
+p 
+{
+    font-family: var(--paragraph-font);
+
+}
+
+.quote
+{
+    padding: 3%;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.personal-intro
+{
+    line-height: 40px;
+    max-width: 50%;
+    margin-left: 24%;
+}
+
+.personal-img
+{
+    max-width: 30%;
+    border: #11151C 5px solid;
+}
+
+
+
+/* footer for all pages*/
+footer
+{
+    padding: 20px  0px 1px 20px;
+    background: var();
+}
+footer img
+{
+
+    max-width: 30px;
+}
