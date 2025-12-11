@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Portfolio</title>
+     <link rel="icon" href="/personal_portfolio/images/calvin_logo.png">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="portfolio.css">
     <script src="button.js" defer></script>
 </head>
-<body>
+<body class="body2">
     <header>
-    <h1>Contact Me</h1>
+    <h1>Let's Get in Touch</h1>
     <button class="menu-button">
         <div class="bar1"></div>
         <div class="bar2"></div>
@@ -22,14 +23,67 @@
         <a href="contact_me.html">Contact Me</a>
     </nav>
     </header>
+    <div class="intro-p">
+
+        <p>I’m always open to new opportunities, collaborations, or questions.
+        Feel free to reach out using the form below or through any of the methods listed.
+        </p>
+
+
+    </div>
+
+    <form id="form" action="#" method="post">
+
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" required placeholder="John Doe">
+
+        <label for="email">Email:</label>
+        <input id="email" type="text" name="email:" required placeholder="yourname@email.com">
+
+
+        <label for="phone-number">Phone Number:</label>
+        <input id="phone-number" type="number" name="phone-number" required placeholder="xxx-xxx-xxxx">
+
+
+        <label for="message">Message</label>
+        <input id="message" type="text" name="Message Me" required placeholder="">
+
+        <button type="submit"> Send Message</button>
+
+       
+
+    </form>
+
+
+
 
     
 
-    <footer>
+   <footer>
         <div class="social_media">
-            <img src="images/instagram_icon.svg" alt="social media icon"> 
-            <img src="images/pinterest_icon.svg" alt="social media icon"> 
-            <img src="images/youtube_icon.svg" alt="social media icon"> 
+           
+            <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+
+                <img src="images/instagram_icon.svg" alt="social media icon">
+
+            </a> 
+
+           
+        
+            <a href="https://www.pinterst.com/" target="_blank" aria-label="Pinterest">
+
+                <img src="images/pinterest_icon.svg" alt="social media icon">
+                
+
+            </a>
+
+                
+                <a href="https://www.youtube.com/" target="_blank" aria-label="Youtube">
+
+                    <img src="images/youtube_icon.svg" alt="social media icon">
+
+                </a>
+
         </div>
     </footer>
     

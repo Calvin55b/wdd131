@@ -29,31 +29,38 @@
 }
 
 /* This is my section of CSS for all of the Navigation*/
+body
+{
 
+background-color: #11151C;
+
+
+}
 
 
 header
 {
 
  font-family: var(--heading-font);
-
+ 
 }
 
 header h1
 {
    
     text-align: center;
+    color: #FFF6F6;
 }
 nav
 {
 
-    border: 2px solid gray;
+    border: 5px solid var(--accent1-color);
     max-width: fit-content;
 }
 /* I need to make a hamburguer menu and design with mobile first.*/
 nav a {
     padding: 20px;
-    color: black;
+    color:#FFF6F6;
     text-decoration: none;
     text-align: center;
     display: block;
@@ -64,7 +71,7 @@ nav a {
 .hidden-nav{
     display: none;
     max-width: 50px;
-    background-color: var(--nav-background-color);
+    background-color: var(--secondary-color);
     padding: 4% ;
 }
 nav a:hover {
@@ -82,7 +89,7 @@ nav a:hover {
 .bar1, .bar2, .bar3 {
     width: 30px;
     height: 4px;
-    background-color: black;
+    background-color: var(--secondary-color);
     margin: 5px 0;
     transition: .4s;
 }
@@ -98,16 +105,36 @@ nav a:hover {
 }
 
 
-/*This is my section for the body*/ 
+/*This is my HOME PAGE section*/
+
+#logo-img
+{
+
+ display: block;
+
+ margin: 0 auto;
+
+ padding: 5%;
+
+ width: 60%;
+
+ height: 20%;
+
+
+
+
+}
 
 .home-content
 {
     text-align: center;
+    color: var(--secondary-color);
 }
 
 p 
 {
     font-family: var(--paragraph-font);
+    color: var(--secondary-color)
 
 }
 
@@ -123,6 +150,7 @@ p
     line-height: 40px;
     max-width: 50%;
     margin-left: 24%;
+    font-weight: 400;
 }
 
 .personal-img
@@ -131,16 +159,58 @@ p
     border: #11151C 5px solid;
 }
 
+/* This is for my contact page*/
+
+.intro-p
+{
+
+    padding: 0px 25px;
+
+}
+
+
+
+form
+{
+    border: var(--accent1-color) 3px solid;
+    padding: 0px 25px;
+
+}
+
+label
+{
+
+    display: block;
+    color: var(--secondary-color);
+    padding: 15px;
+    
+
+}
+
 
 
 /* footer for all pages*/
 footer
 {
     padding: 20px  0px 1px 20px;
-    background: var();
+    background: var(--accent1-color);
+    border: 3px solid var(--primary-color);
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    
 }
 footer img
 {
 
     max-width: 30px;
+    background-color: var(--secondary-color);
+    
+}
+
+.social_media a:hover img
+{
+
+    transform: scale(1.15);
+    background-color: #D66853;
 }
