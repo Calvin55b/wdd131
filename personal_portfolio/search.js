@@ -121,18 +121,12 @@ function projectTemplate(project) {
             <div class="project-info">
                 
 
-                <div class="split">
-
-
-
-
-                    
                             
-                          ${project.description};
+                          <p>${project.description}</p>
 
-						  ${project.date}
+						             <p> ${project.date}</p>
 
-
+                          
                           <a href="${project.repoUrl}" target="_blank">View Repository</a>
 
                 </div>

@@ -257,6 +257,12 @@ label
     flex-grow: 1;
 }
 /* This is for my dynamic elements*/
+.project
+{
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 .headers
 {
@@ -267,12 +273,19 @@ label
 
 .picture img
 {
-    max-width: 15%;
+    max-width: 55%;
+    padding: 10%;
+
+
+    display: block;
+    margin: 0 auto;
     
 }
 .project-info
 {
     color: var(--secondary-color);
+    text-align: center;
+    
 }
 
 /* footer for all pages*/
@@ -284,13 +297,27 @@ footer
     position:fixed;
     bottom: 0;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     
+}
+.social_media
+{
+    
+    
+    
+}
+.social_media a
+{
+    padding: 3px;
 }
 footer img
 {
 
     max-width: 30px;
     background-color: var(--secondary-color);
+    
+
     
 }
 
@@ -299,4 +326,26 @@ footer img
 
     transform: scale(1.15);
     background-color: #D66853;
+}
+.wireframe-link a
+{
+    text-decoration: none;
+
+    color: var(--secondary-color);
+
+    
+}
+
+.wireframe-link a:hover{
+
+    color: var(--accent2-color);
+
+}
+
+
+.copyright p
+{
+    
+    
+
 }
