@@ -109,7 +109,7 @@ function projectTemplate(project) {
 
 	return `<div class="project">
     
-            <h2>${project.name}</h2>
+            <h2 class="headers">${project.name}</h2>
             <div class="picture">
 
                 <img src="${project.image}" alt= "${project.alt}">
