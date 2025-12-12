@@ -228,7 +228,34 @@ label
 
 }
 
+/* This is for my Projects Page*/
 
+.search-bar
+{
+    display: flex;
+    align-items: center;
+    padding:10%;
+}
+.search-bar-button :hover
+{
+    background-color: #D66853;
+    
+}
+.search-img
+{
+    height: 42px;
+    
+}
+.search-input
+{
+    height: 38px;
+    width: 75%;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    flex-grow: 1;
+}
 
 /* footer for all pages*/
 footer
