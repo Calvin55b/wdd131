@@ -88,6 +88,10 @@ nav a:hover {
     background-color: transparent;
     padding: 3%;
 }
+.menu-button span
+{
+    display: block;
+}
 
 .bar1,
 .bar2,
