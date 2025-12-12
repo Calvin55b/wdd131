@@ -33,6 +33,7 @@ body
 {
 
 background-color: #11151C;
+padding-bottom: 100px;
 
 
 }
@@ -40,8 +41,9 @@ background-color: #11151C;
 
 header
 {
-
+padding-top: 15px;
  font-family: var(--heading-font);
+ 
  
 }
 
@@ -138,6 +140,7 @@ p
 
 }
 
+
 .quote
 {
     padding: 3%;
@@ -164,7 +167,11 @@ p
 .intro-p
 {
 
-    padding: 0px 25px;
+    
+   padding: 0% 6%;
+    line-height: 40px;
+    text-align: center;
+
 
 }
 
@@ -174,6 +181,30 @@ form
 {
     border: var(--accent1-color) 3px solid;
     padding: 0px 25px;
+    text-align: center;
+
+}
+
+form input
+{
+
+    height: 35px;
+
+    width: 30%;
+
+
+}
+
+#message
+{
+    height: 100px;
+    width: 500px;
+    
+}
+
+#thankMsg
+{
+    color: var(--secondary-color);
 
 }
 
@@ -183,6 +214,16 @@ label
     display: block;
     color: var(--secondary-color);
     padding: 15px;
+    
+
+}
+#submit
+{
+
+    padding: 10px;
+    
+    margin: 10px auto;
+    display: block;
     
 
 }
