@@ -85,10 +85,10 @@ const searchbutton = document.querySelector('.search-bar-button');
 let queryable = [];
 
 
-for (let p of projects){
+for (let p of projects) {
 
 
-	queryable.push([p.image, p.description,(p.date)]);
+  queryable.push([p.image, p.description, (p.date)]);
 }
 
 
@@ -96,10 +96,10 @@ console.log(queryable);
 
 // button.addEventListener('click', search);
 
-for (let  p of projects){
+for (let p of projects) {
 
 
-	main.insertAdjacentHTML("beforeend",projectTemplate(p));
+  main.insertAdjacentHTML("beforeend", projectTemplate(p));
 
 
 }
@@ -107,7 +107,7 @@ for (let  p of projects){
 function projectTemplate(project) {
 
 
-	return `<div class="project">
+  return `<div class="project">
     
             <h2 class="headers">${project.name}</h2>
             <div class="picture">
@@ -135,42 +135,40 @@ function projectTemplate(project) {
             </div>
                     
 
-        </div>`    
+        </div>`
 
 
-}	
+}
 
 //Search function//
 
 const searchbar = document.querySelector(".search-input");
-searchbutton.addEventListener("click", (e) =>{
+searchbutton.addEventListener("click", (e) => {
 
-const query = searchbar.value.toLowerCase();
+  const query = searchbar.value.toLowerCase();
 
-let toRender = [];
+  let toRender = [];
 
-for (let i=0; i <queryable.length; i++){
+  for (let i = 0; i < queryable.length; i++) {
 
-	for (let item of queryable[i]){
+    for (let item of queryable[i]) {
 
-		if (item.toLowerCase().includes(query) && !toRender.includes(projects[i]))
-	
-		{toRender.push(projects[i])}
+      if (item.toLowerCase().includes(query) && !toRender.includes(projects[i])) { toRender.push(projects[i]) }
 
 
-	}
+    }
 
 
 
-}
+  }
 
-main.innerHTML = " ";
+  main.innerHTML = " ";
 
 
-for (let p of toRender){
+  for (let p of toRender) {
 
-	main.insertAdjacentHTML("beforeend",projectTemplate(p));
-}
+    main.insertAdjacentHTML("beforeend", projectTemplate(p));
+  }
 
 
 

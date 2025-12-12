@@ -1,68 +1,65 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 :root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #11151C;
-  --secondary-color: #FFF6F6;
-  --accent1-color: #212D40;
-  --accent2-color: #D66853;
+    /* change the values below to your colors from your palette */
+    --primary-color: #11151C;
+    --secondary-color: #FFF6F6;
+    --accent1-color: #212D40;
+    --accent2-color: #D66853;
 
-  /* change the values below to your chosen font(s) */
-  --heading-font: "Josefin Sans", "Times New Romans";
-  --paragraph-font: "Rubik", "Times New Romans";
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Josefin Sans", "Times New Romans";
+    --paragraph-font: "Rubik", "Times New Romans";
 
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: var(
-    --primary-color
-  ); /* headlines on a white background */
-  --headline-color-on-color: white; /* headlines on a colored background */
-  --paragraph-color-on-white: var(
-    --primary-color
-  ); /* paragraph text on a white background */
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */
-  --paragraph-background-color: var(--primary-color);
-  --nav-link-color: var(--primary-color);
-  --nav-background-color: var(--secondary-color);
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: var(--primary-color);
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: var(--primary-color);
+    /* headlines on a white background */
+    --headline-color-on-color: white;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: var(--primary-color);
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: white;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: var(--primary-color);
+    --nav-link-color: var(--primary-color);
+    --nav-background-color: var(--secondary-color);
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: var(--primary-color);
 }
 
 /* This is my section of CSS for all of the Navigation*/
-body
-{
+body {
 
-background-color: #11151C;
-padding-bottom: 100px;
+    background-color: #11151C;
+    padding-bottom: 100px;
 
 
 }
 
 
-header
-{
-padding-top: 15px;
- font-family: var(--heading-font);
- 
- 
+header {
+    padding-top: 15px;
+    font-family: var(--heading-font);
+
+
 }
 
-header h1
-{
-   
+header h1 {
+
     text-align: center;
     color: #FFF6F6;
 }
-nav
-{
+
+nav {
 
     border: 5px solid var(--accent1-color);
     max-width: fit-content;
 }
+
 /* I need to make a hamburguer menu and design with mobile first.*/
 nav a {
     padding: 20px;
-    color:#FFF6F6;
+    color: #FFF6F6;
     text-decoration: none;
     text-align: center;
     display: block;
@@ -70,25 +67,31 @@ nav a {
     max-width: 100px;
     /*display: none;*/
 }
-.hidden-nav{
+
+.hidden-nav {
     display: none;
     max-width: 50px;
     background-color: var(--secondary-color);
-    padding: 4% ;
+    padding: 4%;
 }
+
 nav a:hover {
     text-decoration: none;
     color: var(--accent1-color);
     background-color: var(--accent2-color);
 
 }
+
 .menu-button {
     cursor: pointer;
     border: none;
     background-color: transparent;
     padding: 3%;
 }
-.bar1, .bar2, .bar3 {
+
+.bar1,
+.bar2,
+.bar3 {
     width: 30px;
     height: 4px;
     background-color: var(--secondary-color);
@@ -98,77 +101,72 @@ nav a:hover {
 
 
 .change .bar1 {
-  transform: translate(0, 7.5px) rotate(-45deg);
+    transform: translate(0, 7.5px) rotate(-45deg);
 }
-.change .bar2 {opacity: 0;}
+
+.change .bar2 {
+    opacity: 0;
+}
 
 .change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
+    transform: translate(0, -11px) rotate(45deg);
 }
 
 
 /*This is my HOME PAGE section*/
 
-#logo-img
-{
+#logo-img {
 
- display: block;
+    display: block;
 
- margin: 0 auto;
+    margin: 0 auto;
 
- padding: 5%;
+    padding: 5%;
 
- width: 60%;
+    width: 60%;
 
- height: 20%;
+    height: 20%;
 
 
 
 
 }
 
-.home-content
-{
+.home-content {
     text-align: center;
     color: var(--secondary-color);
 }
 
-p 
-{
+p {
     font-family: var(--paragraph-font);
     color: var(--secondary-color)
-
 }
 
 
-.quote
-{
+.quote {
     padding: 3%;
     font-size: larger;
     font-weight: 700;
 }
 
-.personal-intro
-{
+.personal-intro {
     line-height: 40px;
     max-width: 50%;
     margin-left: 24%;
     font-weight: 400;
 }
 
-.personal-img
-{
+.personal-img {
     max-width: 30%;
     border: #11151C 5px solid;
 }
 
 /* This is for my contact page*/
 
-.intro-p
-{
+.intro-p {
 
-    
-   padding: 0% 6%;
+
+    padding: 0% 6%;
     line-height: 40px;
     text-align: center;
 
@@ -177,16 +175,14 @@ p
 
 
 
-form
-{
+form {
     border: var(--accent1-color) 3px solid;
     padding: 0px 25px;
     text-align: center;
 
 }
 
-form input
-{
+form input {
 
     height: 35px;
 
@@ -195,59 +191,55 @@ form input
 
 }
 
-#message
-{
+#message {
     height: 100px;
     width: 500px;
-    
+
 }
 
-#thankMsg
-{
+#thankMsg {
     color: var(--secondary-color);
 
 }
 
-label
-{
+label {
 
     display: block;
     color: var(--secondary-color);
     padding: 15px;
-    
+
 
 }
-#submit
-{
+
+#submit {
 
     padding: 10px;
-    
+
     margin: 10px auto;
     display: block;
-    
+
 
 }
 
 /* This is for my Projects Page*/
 
-.search-bar
-{
+.search-bar {
     display: flex;
     align-items: center;
-    padding:10%;
+    padding: 10%;
 }
-.search-bar-button :hover
-{
+
+.search-bar-button :hover {
     background-color: #D66853;
-    
+
 }
-.search-img
-{
+
+.search-img {
     height: 42px;
-    
+
 }
-.search-input
-{
+
+.search-input {
     height: 38px;
     width: 75%;
     border: none;
@@ -256,96 +248,88 @@ label
     padding: 5px;
     flex-grow: 1;
 }
+
 /* This is for my dynamic elements*/
-.project
-{
+.project {
     width: 75%;
     margin: 0 auto;
     padding: 20px;
 }
 
-.headers
-{
+.headers {
     color: var(--secondary-color);
     text-align: center;
 }
 
 
-.picture img
-{
+.picture img {
     max-width: 55%;
     padding: 10%;
 
 
     display: block;
     margin: 0 auto;
-    
+
 }
-.project-info
-{
+
+.project-info {
     color: var(--secondary-color);
     text-align: center;
-    
+
+}
+.project-info a
+{
+    color: var(--secondary-color);
+
 }
 
 /* footer for all pages*/
-footer
-{
-    padding: 20px  0px 1px 20px;
+footer {
+    padding: 20px 0px 1px 20px;
     background: var(--accent1-color);
     border: 3px solid var(--primary-color);
-    position:fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+
 }
-.social_media
-{
-    
-    
-    
-}
-.social_media a
-{
+
+
+
+.social_media a {
     padding: 3px;
 }
-footer img
-{
+
+footer img {
 
     max-width: 30px;
     background-color: var(--secondary-color);
-    
 
-    
+
+
 }
 
-.social_media a:hover img
-{
+.social_media a:hover img {
 
     transform: scale(1.15);
     background-color: #D66853;
 }
-.wireframe-link a
-{
+
+.wireframe-link a {
     text-decoration: none;
 
     color: var(--secondary-color);
 
-    
+
 }
 
-.wireframe-link a:hover{
+.wireframe-link a:hover {
 
     color: var(--accent2-color);
 
 }
 
 
-.copyright p
-{
-    
-    
-
-}
+.copyright p {}
